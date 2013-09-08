@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E06CF4017DCFED600E4F3ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E06CF3F17DCFED600E4F3ED /* UIKit.framework */; };
+		2E06CF4217DCFED600E4F3ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E06CF4117DCFED600E4F3ED /* Foundation.framework */; };
+		2E06CF4417DCFED600E4F3ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E06CF4317DCFED600E4F3ED /* CoreGraphics.framework */; };
+		2E06CF4A17DCFED600E4F3ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E06CF4817DCFED600E4F3ED /* InfoPlist.strings */; };
+		2E06CF4C17DCFED600E4F3ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06CF4B17DCFED600E4F3ED /* main.m */; };
+		2E06CF5017DCFED600E4F3ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06CF4F17DCFED600E4F3ED /* AppDelegate.m */; };
+		2E06CF5217DCFED600E4F3ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E06CF5117DCFED600E4F3ED /* Default.png */; };
+		2E06CF5417DCFED600E4F3ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E06CF5317DCFED600E4F3ED /* Default@2x.png */; };
+		2E06CF5617DCFED600E4F3ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E06CF5517DCFED600E4F3ED /* Default-568h@2x.png */; };
+		2E06CF6317DCFF5C00E4F3ED /* NGRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06CF6217DCFF5C00E4F3ED /* NGRotationGestureRecognizer.m */; };
+		2E06CF6717DCFFB300E4F3ED /* RotationGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06CF6517DCFFB300E4F3ED /* RotationGestureRecognizerViewController.m */; };
+		2E06CF6817DCFFB300E4F3ED /* RotationGestureRecognizerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E06CF6617DCFFB300E4F3ED /* RotationGestureRecognizerViewController.xib */; };
+		2E06CF6A17DD010600E4F3ED /* colorwheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E06CF6917DD010600E4F3ED /* colorwheel.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E06CF3C17DCFED600E4F3ED /* OneFingerRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneFingerRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E06CF3F17DCFED600E4F3ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E06CF4117DCFED600E4F3ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E06CF4317DCFED600E4F3ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E06CF4717DCFED600E4F3ED /* OneFingerRotation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OneFingerRotation-Info.plist"; sourceTree = "<group>"; };
+		2E06CF4917DCFED600E4F3ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E06CF4B17DCFED600E4F3ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E06CF4D17DCFED600E4F3ED /* OneFingerRotation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OneFingerRotation-Prefix.pch"; sourceTree = "<group>"; };
+		2E06CF4E17DCFED600E4F3ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E06CF4F17DCFED600E4F3ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E06CF5117DCFED600E4F3ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2E06CF5317DCFED600E4F3ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2E06CF5517DCFED600E4F3ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2E06CF6117DCFF5C00E4F3ED /* NGRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		2E06CF6217DCFF5C00E4F3ED /* NGRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		2E06CF6417DCFFB300E4F3ED /* RotationGestureRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationGestureRecognizerViewController.h; sourceTree = "<group>"; };
+		2E06CF6517DCFFB300E4F3ED /* RotationGestureRecognizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationGestureRecognizerViewController.m; sourceTree = "<group>"; };
+		2E06CF6617DCFFB300E4F3ED /* RotationGestureRecognizerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RotationGestureRecognizerViewController.xib; sourceTree = "<group>"; };
+		2E06CF6917DD010600E4F3ED /* colorwheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorwheel.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E06CF3917DCFED600E4F3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E06CF4017DCFED600E4F3ED /* UIKit.framework in Frameworks */,
+				2E06CF4217DCFED600E4F3ED /* Foundation.framework in Frameworks */,
+				2E06CF4417DCFED600E4F3ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E06CF3317DCFED600E4F3ED = {
+			isa = PBXGroup;
+			children = (
+				2E06CF4517DCFED600E4F3ED /* OneFingerRotation */,
+				2E06CF3E17DCFED600E4F3ED /* Frameworks */,
+				2E06CF3D17DCFED600E4F3ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E06CF3D17DCFED600E4F3ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E06CF3C17DCFED600E4F3ED /* OneFingerRotation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E06CF3E17DCFED600E4F3ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E06CF3F17DCFED600E4F3ED /* UIKit.framework */,
+				2E06CF4117DCFED600E4F3ED /* Foundation.framework */,
+				2E06CF4317DCFED600E4F3ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E06CF4517DCFED600E4F3ED /* OneFingerRotation */ = {
+			isa = PBXGroup;
+			children = (
+				2E06CF6017DCFF5C00E4F3ED /* NGRotationGestureRecognizer */,
+				2E06CF4E17DCFED600E4F3ED /* AppDelegate.h */,
+				2E06CF4F17DCFED600E4F3ED /* AppDelegate.m */,
+				2E06CF6417DCFFB300E4F3ED /* RotationGestureRecognizerViewController.h */,
+				2E06CF6517DCFFB300E4F3ED /* RotationGestureRecognizerViewController.m */,
+				2E06CF6617DCFFB300E4F3ED /* RotationGestureRecognizerViewController.xib */,
+				2E06CF4617DCFED600E4F3ED /* Supporting Files */,
+			);
+			path = OneFingerRotation;
+			sourceTree = "<group>";
+		};
+		2E06CF4617DCFED600E4F3ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E06CF6917DD010600E4F3ED /* colorwheel.png */,
+				2E06CF4717DCFED600E4F3ED /* OneFingerRotation-Info.plist */,
+				2E06CF4817DCFED600E4F3ED /* InfoPlist.strings */,
+				2E06CF4B17DCFED600E4F3ED /* main.m */,
+				2E06CF4D17DCFED600E4F3ED /* OneFingerRotation-Prefix.pch */,
+				2E06CF5117DCFED600E4F3ED /* Default.png */,
+				2E06CF5317DCFED600E4F3ED /* Default@2x.png */,
+				2E06CF5517DCFED600E4F3ED /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E06CF6017DCFF5C00E4F3ED /* NGRotationGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				2E06CF6117DCFF5C00E4F3ED /* NGRotationGestureRecognizer.h */,
+				2E06CF6217DCFF5C00E4F3ED /* NGRotationGestureRecognizer.m */,
+			);
+			path = NGRotationGestureRecognizer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E06CF3B17DCFED600E4F3ED /* OneFingerRotation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E06CF5917DCFED600E4F3ED /* Build configuration list for PBXNativeTarget "OneFingerRotation" */;
+			buildPhases = (
+				2E06CF3817DCFED600E4F3ED /* Sources */,
+				2E06CF3917DCFED600E4F3ED /* Frameworks */,
+				2E06CF3A17DCFED600E4F3ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneFingerRotation;
+			productName = OneFingerRotation;
+			productReference = 2E06CF3C17DCFED600E4F3ED /* OneFingerRotation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E06CF3417DCFED600E4F3ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 2E06CF3717DCFED600E4F3ED /* Build configuration list for PBXProject "OneFingerRotation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E06CF3317DCFED600E4F3ED;
+			productRefGroup = 2E06CF3D17DCFED600E4F3ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E06CF3B17DCFED600E4F3ED /* OneFingerRotation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E06CF3A17DCFED600E4F3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E06CF4A17DCFED600E4F3ED /* InfoPlist.strings in Resources */,
+				2E06CF5217DCFED600E4F3ED /* Default.png in Resources */,
+				2E06CF5417DCFED600E4F3ED /* Default@2x.png in Resources */,
+				2E06CF5617DCFED600E4F3ED /* Default-568h@2x.png in Resources */,
+				2E06CF6817DCFFB300E4F3ED /* RotationGestureRecognizerViewController.xib in Resources */,
+				2E06CF6A17DD010600E4F3ED /* colorwheel.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E06CF3817DCFED600E4F3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E06CF4C17DCFED600E4F3ED /* main.m in Sources */,
+				2E06CF5017DCFED600E4F3ED /* AppDelegate.m in Sources */,
+				2E06CF6317DCFF5C00E4F3ED /* NGRotationGestureRecognizer.m in Sources */,
+				2E06CF6717DCFFB300E4F3ED /* RotationGestureRecognizerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E06CF4817DCFED600E4F3ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E06CF4917DCFED600E4F3ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E06CF5717DCFED600E4F3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2E06CF5817DCFED600E4F3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E06CF5A17DCFED600E4F3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneFingerRotation/OneFingerRotation-Prefix.pch";
+				INFOPLIST_FILE = "OneFingerRotation/OneFingerRotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E06CF5B17DCFED600E4F3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneFingerRotation/OneFingerRotation-Prefix.pch";
+				INFOPLIST_FILE = "OneFingerRotation/OneFingerRotation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E06CF3717DCFED600E4F3ED /* Build configuration list for PBXProject "OneFingerRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E06CF5717DCFED600E4F3ED /* Debug */,
+				2E06CF5817DCFED600E4F3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E06CF5917DCFED600E4F3ED /* Build configuration list for PBXNativeTarget "OneFingerRotation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E06CF5A17DCFED600E4F3ED /* Debug */,
+				2E06CF5B17DCFED600E4F3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E06CF3417DCFED600E4F3ED /* Project object */;
+}
