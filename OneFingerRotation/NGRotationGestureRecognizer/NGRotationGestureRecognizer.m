@@ -57,6 +57,7 @@ CGPoint CGRectGetMidPoint(CGRect rect)
 
 - (void)reset
 {
+    [super reset];
     self.trackedTouch = nil;
 }
 
@@ -142,7 +143,7 @@ CGPoint CGRectGetMidPoint(CGRect rect)
 
 - (UIView *)referenceView
 {
-    return self.view.superview;
+    return self.view.window;
 }
 
 - (float)angleForVectorWithStartPoint:(CGPoint)startPoint endPoint:(CGPoint)endPoint
