@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-#import "NGRotationGestureRecognizer.h"
+#import "NGOneFingerRotationGestureRecognizer.h"
 #import <UIKit/UIGestureRecognizerSubclass.h>
 
 
@@ -33,7 +33,7 @@ CGPoint CGRectGetMidPoint(CGRect rect)
 }
 
 
-@interface NGRotationGestureRecognizer ()
+@interface NGOneFingerRotationGestureRecognizer ()
 
 @property (strong, nonatomic) UITouch * trackedTouch;
 @property (assign, nonatomic) CGPoint initialTouchLocation;
@@ -43,7 +43,7 @@ CGPoint CGRectGetMidPoint(CGRect rect)
 @end
 
 
-@implementation NGRotationGestureRecognizer
+@implementation NGOneFingerRotationGestureRecognizer
 
 #pragma mark - Public Properties
 

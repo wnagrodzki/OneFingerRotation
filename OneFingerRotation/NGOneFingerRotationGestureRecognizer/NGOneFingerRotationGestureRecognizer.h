@@ -25,7 +25,7 @@
 /** 
  * Uses one finger to calculate rotation. Center of rotation in center point of the view 
  */
-@interface NGRotationGestureRecognizer : UIGestureRecognizer
+@interface NGOneFingerRotationGestureRecognizer : UIGestureRecognizer
 
 /**
  * Changes from 0 to 2PI

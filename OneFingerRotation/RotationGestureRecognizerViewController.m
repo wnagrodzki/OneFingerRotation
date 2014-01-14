@@ -7,7 +7,7 @@
 //
 
 #import "RotationGestureRecognizerViewController.h"
-#import "NGRotationGestureRecognizer.h"
+#import "NGOneFingerRotationGestureRecognizer.h"
 
 @interface RotationGestureRecognizerViewController ()
 
@@ -20,7 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NGRotationGestureRecognizer * gestureRecognizer = [[NGRotationGestureRecognizer alloc] initWithTarget:self action:@selector(handleRotationGesture:)];
+    NGOneFingerRotationGestureRecognizer * gestureRecognizer = [[NGOneFingerRotationGestureRecognizer alloc] initWithTarget:self action:@selector(handleRotationGesture:)];
     [self.twirlImageView addGestureRecognizer:gestureRecognizer];
 }
 
@@ -30,11 +30,10 @@
     self.twirlImageView.center = CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds));
 }
 
-- (void)handleRotationGesture:(NGRotationGestureRecognizer *)gestureRecognizer
+- (void)handleRotationGesture:(NGOneFingerRotationGestureRecognizer *)gestureRecognizer
 {
     if (gestureRecognizer.state == UIGestureRecognizerStateBegan) {
         gestureRecognizer.rotation = atan2(self.twirlImageView.transform.b, self.twirlImageView.transform.a);
-        return;
     }
     else if (gestureRecognizer.state == UIGestureRecognizerStateChanged) {
         self.twirlImageView.transform = CGAffineTransformMakeRotation(gestureRecognizer.rotation);

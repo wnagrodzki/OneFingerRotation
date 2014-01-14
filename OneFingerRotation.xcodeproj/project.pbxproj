@@ -16,10 +16,10 @@
 		2E06CF5217DCFED600E4F3ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E06CF5117DCFED600E4F3ED /* Default.png */; };
 		2E06CF5417DCFED600E4F3ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E06CF5317DCFED600E4F3ED /* Default@2x.png */; };
 		2E06CF5617DCFED600E4F3ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E06CF5517DCFED600E4F3ED /* Default-568h@2x.png */; };
-		2E06CF6317DCFF5C00E4F3ED /* NGRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06CF6217DCFF5C00E4F3ED /* NGRotationGestureRecognizer.m */; };
 		2E06CF6717DCFFB300E4F3ED /* RotationGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E06CF6517DCFFB300E4F3ED /* RotationGestureRecognizerViewController.m */; };
 		2E06CF6817DCFFB300E4F3ED /* RotationGestureRecognizerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E06CF6617DCFFB300E4F3ED /* RotationGestureRecognizerViewController.xib */; };
 		2E06CF6A17DD010600E4F3ED /* colorwheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E06CF6917DD010600E4F3ED /* colorwheel.png */; };
+		2E46B2481885412200C4FCBF /* NGOneFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E46B2471885412200C4FCBF /* NGOneFingerRotationGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,12 +36,12 @@
 		2E06CF5117DCFED600E4F3ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		2E06CF5317DCFED600E4F3ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2E06CF5517DCFED600E4F3ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2E06CF6117DCFF5C00E4F3ED /* NGRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGRotationGestureRecognizer.h; sourceTree = "<group>"; };
-		2E06CF6217DCFF5C00E4F3ED /* NGRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGRotationGestureRecognizer.m; sourceTree = "<group>"; };
 		2E06CF6417DCFFB300E4F3ED /* RotationGestureRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationGestureRecognizerViewController.h; sourceTree = "<group>"; };
 		2E06CF6517DCFFB300E4F3ED /* RotationGestureRecognizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationGestureRecognizerViewController.m; sourceTree = "<group>"; };
 		2E06CF6617DCFFB300E4F3ED /* RotationGestureRecognizerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RotationGestureRecognizerViewController.xib; sourceTree = "<group>"; };
 		2E06CF6917DD010600E4F3ED /* colorwheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorwheel.png; sourceTree = "<group>"; };
+		2E46B2461885412200C4FCBF /* NGOneFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGOneFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		2E46B2471885412200C4FCBF /* NGOneFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGOneFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 		2E06CF4517DCFED600E4F3ED /* OneFingerRotation */ = {
 			isa = PBXGroup;
 			children = (
-				2E06CF6017DCFF5C00E4F3ED /* NGRotationGestureRecognizer */,
+				2E46B2451885412200C4FCBF /* NGOneFingerRotationGestureRecognizer */,
 				2E06CF4E17DCFED600E4F3ED /* AppDelegate.h */,
 				2E06CF4F17DCFED600E4F3ED /* AppDelegate.m */,
 				2E06CF6417DCFFB300E4F3ED /* RotationGestureRecognizerViewController.h */,
@@ -114,13 +114,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2E06CF6017DCFF5C00E4F3ED /* NGRotationGestureRecognizer */ = {
+		2E46B2451885412200C4FCBF /* NGOneFingerRotationGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
-				2E06CF6117DCFF5C00E4F3ED /* NGRotationGestureRecognizer.h */,
-				2E06CF6217DCFF5C00E4F3ED /* NGRotationGestureRecognizer.m */,
+				2E46B2461885412200C4FCBF /* NGOneFingerRotationGestureRecognizer.h */,
+				2E46B2471885412200C4FCBF /* NGOneFingerRotationGestureRecognizer.m */,
 			);
-			path = NGRotationGestureRecognizer;
+			path = NGOneFingerRotationGestureRecognizer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,9 +189,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E46B2481885412200C4FCBF /* NGOneFingerRotationGestureRecognizer.m in Sources */,
 				2E06CF4C17DCFED600E4F3ED /* main.m in Sources */,
 				2E06CF5017DCFED600E4F3ED /* AppDelegate.m in Sources */,
-				2E06CF6317DCFF5C00E4F3ED /* NGRotationGestureRecognizer.m in Sources */,
 				2E06CF6717DCFFB300E4F3ED /* RotationGestureRecognizerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
